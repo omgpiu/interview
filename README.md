@@ -46,12 +46,13 @@ YDKJS - про приведение типов
 2) Вопросы по css
 3) [Прото и прототипы](https://www.youtube.com/watch?v=b55hiUlhAzI&list=RDCMUCTW0FUhT0m-Bqg2trTbSs0g&start_radio=1&t=3s)
 4) Конструктор и this.
-5) SOLID
+5) [SOLID](https://www.youtube.com/watch?v=WMO9aarO390&list=PLz_dGYmQRrr8rWKkoB3BtxF7JpCzUKny_)
 6) http/https
 7) crud + хедеры
 8) Оптимизации + кеши
 9) Более подробно евентлуп
 10) DNS
+11) [Паттерны](https://www.youtube.com/watch?v=bTiAfLbmsnY&t=3s)
 
 ## Алгосы
 
