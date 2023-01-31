@@ -138,7 +138,7 @@ const containsDuplicate = (nums) => {
 
 ## React задачи
 
-[Среднее время](https://codesandbox.io/s/stupefied-cache-sepkql)
+[Среднее время](https://codesandbox.io/s/stupefied-cache-sepkql).    
 [Получение данных](https://codesandbox.io/s/eager-gianmarco-xdvo9h)
 
 ### JS + TS
