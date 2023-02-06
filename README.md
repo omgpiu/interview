@@ -53,6 +53,7 @@ YDKJS - про приведение типов
 9) Более подробно евентлуп
 10) DNS
 11) [Паттерны](https://www.youtube.com/watch?v=bTiAfLbmsnY&t=3s)
+12) [Preload,Preconnect,Prefetch](https://nitropack.io/blog/post/resource-hints-performance-optimization)
 
 ## Алгосы
 
