@@ -109,11 +109,14 @@ return (
 export default FormContainer;
 
 
-Среднее время.
-Получение данных
-
-
 ## Задачи
+
+
+### React
+
+[Среднее время](https://codesandbox.io/s/stupefied-cache-sepkql).        
+[Получение данных](https://codesandbox.io/s/eager-gianmarco-xdvo9h)
+
 
 ### [buildQueryString](https://ru.hexlet.io/challenges/js_collections_query_string_exercise)
 
