@@ -108,6 +108,11 @@ return (
 
 export default FormContainer;
 
+
+Среднее время.
+Получение данных
+
+
 ## Задачи
 
 ### [buildQueryString](https://ru.hexlet.io/challenges/js_collections_query_string_exercise)
