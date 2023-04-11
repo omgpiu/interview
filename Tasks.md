@@ -7,7 +7,7 @@
 
 [Среднее время](https://codesandbox.io/s/stupefied-cache-sepkql).        
 [Получение данных](https://codesandbox.io/s/eager-gianmarco-xdvo9h)
-
+[Timer](https://codesandbox.io/s/timer-react-17-forked-8903ot?file=/src/timer.tsx)
 
 ### [buildQueryString](https://ru.hexlet.io/challenges/js_collections_query_string_exercise)
 
