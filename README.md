@@ -10,6 +10,8 @@ hr-позвонит [hr-позвонит](https://www.youtube.com/results?search
 ## Сайты тренажеры
 
 [js-тренажор](https://github.com/lydiahallie/javascript-questions).
+[Набор задач](https://bigfrontend.dev/)
+[Набор алгосов по js](https://leetcode.com/problemset/javascript/)
 
 ## Решение задач/практика
 
