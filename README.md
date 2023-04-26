@@ -102,15 +102,6 @@ For a given number num, write a function to test if it's a numerical palindrome 
 is and false if not).
 Return "Not valid" if the input is not an integer or less than 0.
 
-```js
-const palindrome = 110011
-const noPalindrome = 543212345
-
-function isPalindrome(num) {
-
-}
-```
-
 //Решение
 
 ```js
@@ -124,13 +115,6 @@ function palindrome(num) {
 
 Given an integer array nums, return true if any value appears at least twice in the array, and return false if every
 element is distinct.
-
-```js
-const nums = [1, 2, 3, 1]
-var containsDuplicate = function (nums) {
-
-};
-```
 
 //Решение
 
