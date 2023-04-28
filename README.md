@@ -128,6 +128,7 @@ const containsDuplicate = (nums) => {
 
 [Среднее время](https://codesandbox.io/s/stupefied-cache-sepkql).    
 [Получение данных](https://codesandbox.io/s/eager-gianmarco-xdvo9h)
+[Найти баг](https://codesandbox.io/s/epic-swanson-2dmp2x)
 
 ### JS + TS
 
