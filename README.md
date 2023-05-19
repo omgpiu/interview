@@ -132,34 +132,34 @@ const containsDuplicate = (nums) => {
 
 ### JS + TS
 
-Какие существуют типы данных в JS?
-Как проверить, является ли объект массивом?
-Что такое деструктуризация?
-Чем JS отличается при работе на front-end и back-end?
-Для чего предназначены методы setTimeout и setInterval, есть ли они в JS?
-Сравните подходы работы с асинхронным кодом: callbacks vs promises vs async / await. 
-Назовите методы массивов, какие помните, и скажите, для чего они нужны.
-Map и Set 
-Глубокая (deep) и поверхностная (shallow) копия объекта 
-Какая разница между декларацией функции (function declaration) и функциональным выражением (function expression)? Что такое анонимная функция?
-Отличия стрелочных функций от обычных:
-IIFE (Immediately Invoked Function Expression) 
-Hoisting 
-Замыкание (closure)
-Рекурсия 
-Разница между методами call и apply 
-Garbage Collector (сборщик мусора) 
-Promise
-Преимущества генераторов:
-Чистая функция
-Event Loop (евент-петля) 
-RAF
-Прототип в JavaScript
-Generics
-Разница между any и unknown 
-Type guard 
-Type vs Interface
-Utility типы 
+Какие существуют типы данных в JS?    
+Как проверить, является ли объект массивом?    
+Что такое деструктуризация?    
+Чем JS отличается при работе на front-end и back-end?    
+Для чего предназначены методы setTimeout и setInterval, есть ли они в JS?    
+Сравните подходы работы с асинхронным кодом: callbacks vs promises vs async / await.         
+Назовите методы массивов, какие помните, и скажите, для чего они нужны.    
+Map и Set.     
+Глубокая (deep) и поверхностная (shallow) копия объекта.     
+Какая разница между декларацией функции (function declaration) и функциональным выражением (function expression)? Что такое анонимная функция?    
+Отличия стрелочных функций от обычных:     
+IIFE (Immediately Invoked Function Expression).   
+Hoisting.    
+Замыкание (closure).   
+Рекурсия.   
+Разница между методами call и apply      
+Garbage Collector (сборщик мусора).   
+Promise.   
+Преимущества генераторов:     
+Чистая функция.   
+Event Loop (евент-петля)     
+RAF.   
+Прототип в JavaScript.     
+Generics.   
+Разница между any и unknown.    
+Type guard.   
+Type vs Interface.    
+Utility типы.   
 
 Partial<T> - создает тип, который делает все свойства объекта необязательными.
 Readonly<T> - создает тип, который делает все свойства объекта доступными только для чтения.
