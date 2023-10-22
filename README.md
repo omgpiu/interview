@@ -56,7 +56,7 @@ YDKJS - про приведение типов
 10) DNS
 11) [Паттерны](https://www.youtube.com/watch?v=bTiAfLbmsnY&t=3s)
 12) [Preload,Preconnect,Prefetch](https://nitropack.io/blog/post/resource-hints-performance-optimization)
-
+13) [Жизненный цикл](https://julesblom.com/writing/react-hook-component-timeline?ck_subscriber_id=1866528443&utm_source=convertkit&utm_medium=email&utm_campaign=%E2%9A%9B%EF%B8%8F+This+Week+In+React+%23124%3A+FLIP,+Lifecycle,+Next.js,+TypeScript,+Vanilla-Extract,+LiveView,+Remix,+GitHub,+Race+Conditions,+Fontpie,+Remotion...%20-%209416696)
 ## Алгосы
 
 [grind75](https://www.techinterviewhandbook.org/grind75)
