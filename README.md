@@ -129,7 +129,7 @@ const containsDuplicate = (nums) => {
 [Среднее время](https://codesandbox.io/s/stupefied-cache-sepkql).    
 [Получение данных](https://codesandbox.io/s/immutable-sun-xge1y1?file=/src/App.tsx).  
 [Найти баг](https://codesandbox.io/s/epic-swanson-2dmp2x).  
-
+[yandex-code](https://code.yandex-team.ru)
 ### JS + TS
 
 Какие существуют типы данных в JS?    
