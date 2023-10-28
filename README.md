@@ -53,11 +53,12 @@ YDKJS - про приведение типов
 7) crud + хедеры
 8) Оптимизации + кеши
 9) [Более подробно евентлуп-1](https://www.youtube.com/watch?v=6XyifyzmSMM&t=1s)
-10) DNS
-11) [Паттерны](https://www.youtube.com/watch?v=bTiAfLbmsnY&t=3s)
-12) [Preload,Preconnect,Prefetch](https://nitropack.io/blog/post/resource-hints-performance-optimization)
-13) [Жизненный цикл](https://julesblom.com/writing/react-hook-component-timeline?ck_subscriber_id=1866528443&utm_source=convertkit&utm_medium=email&utm_campaign=%E2%9A%9B%EF%B8%8F+This+Week+In+React+%23124%3A+FLIP,+Lifecycle,+Next.js,+TypeScript,+Vanilla-Extract,+LiveView,+Remix,+GitHub,+Race+Conditions,+Fontpie,+Remotion...%20-%209416696)
-14) [Reconsiciliatiom](https://www.youtube.com/watch?v=NPXJnKytER4&t=24s)
+10) [Еще евентлуп](https://www.youtube.com/watch?v=qz6yDqjMVfw&t=1s)
+11) DNS
+12) [Паттерны](https://www.youtube.com/watch?v=bTiAfLbmsnY&t=3s)
+13) [Preload,Preconnect,Prefetch](https://nitropack.io/blog/post/resource-hints-performance-optimization)
+14) [Жизненный цикл](https://julesblom.com/writing/react-hook-component-timeline?ck_subscriber_id=1866528443&utm_source=convertkit&utm_medium=email&utm_campaign=%E2%9A%9B%EF%B8%8F+This+Week+In+React+%23124%3A+FLIP,+Lifecycle,+Next.js,+TypeScript,+Vanilla-Extract,+LiveView,+Remix,+GitHub,+Race+Conditions,+Fontpie,+Remotion...%20-%209416696)
+15) [Reconsiciliatiom](https://www.youtube.com/watch?v=NPXJnKytER4&t=24s)
 ## Алгосы
 
 [grind75](https://www.techinterviewhandbook.org/grind75)
