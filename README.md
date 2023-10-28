@@ -47,18 +47,19 @@ YDKJS - про приведение типов
 1) [Как парсит браузер](https://webdevblog.ru/kak-brauzer-renderit-veb-stranicu/)  , [вторая статья как работает браузер](https://habr.com/ru/post/484900/)
 2) Вопросы по css
 3) [Прото и прототипы](https://www.youtube.com/watch?v=b55hiUlhAzI&list=RDCMUCTW0FUhT0m-Bqg2trTbSs0g&start_radio=1&t=3s)
-4) Конструктор и this.
+4) [Конструктор и this](https://gist.github.com/GoodDayTodayOkey/eaaccd3336ddd6d436faa1bf906f6119)
 5) [SOLID](https://www.youtube.com/watch?v=WMO9aarO390&list=PLz_dGYmQRrr8rWKkoB3BtxF7JpCzUKny_)
-6) http/https
-7) crud + хедеры
-8) Оптимизации + кеши
+6) [http](https://habr.com/ru/companies/avito/articles/710678/)
+7) [Хедеры](https://habr.com/ru/companies/vk/articles/450816/)
+8) [Кеш](https://webdevblog.ru/ispolzovaniya-cache-api-v-service-workers/)
 9) [Более подробно евентлуп-1](https://www.youtube.com/watch?v=6XyifyzmSMM&t=1s)
 10) [Еще евентлуп](https://www.youtube.com/watch?v=qz6yDqjMVfw&t=1s)
-11) DNS
+11) [DNS](https://aws.amazon.com/ru/route53/what-is-dns/)
 12) [Паттерны](https://www.youtube.com/watch?v=bTiAfLbmsnY&t=3s)
 13) [Preload,Preconnect,Prefetch](https://nitropack.io/blog/post/resource-hints-performance-optimization)
 14) [Жизненный цикл](https://julesblom.com/writing/react-hook-component-timeline?ck_subscriber_id=1866528443&utm_source=convertkit&utm_medium=email&utm_campaign=%E2%9A%9B%EF%B8%8F+This+Week+In+React+%23124%3A+FLIP,+Lifecycle,+Next.js,+TypeScript,+Vanilla-Extract,+LiveView,+Remix,+GitHub,+Race+Conditions,+Fontpie,+Remotion...%20-%209416696)
 15) [Reconsiciliatiom](https://www.youtube.com/watch?v=NPXJnKytER4&t=24s)
+    
 ## Алгосы
 
 [grind75](https://www.techinterviewhandbook.org/grind75)
