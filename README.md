@@ -52,7 +52,7 @@ YDKJS - про приведение типов
 6) http/https
 7) crud + хедеры
 8) Оптимизации + кеши
-9) Более подробно евентлуп
+9) [Более подробно евентлуп-1](https://www.youtube.com/watch?v=6XyifyzmSMM&t=1s)
 10) DNS
 11) [Паттерны](https://www.youtube.com/watch?v=bTiAfLbmsnY&t=3s)
 12) [Preload,Preconnect,Prefetch](https://nitropack.io/blog/post/resource-hints-performance-optimization)
