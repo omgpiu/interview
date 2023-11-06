@@ -135,34 +135,149 @@ const containsDuplicate = (nums) => {
 [yandex-code](https://code.yandex-team.ru)
 ### JS + TS
 
-Какие существуют типы данных в JS?    
-Как проверить, является ли объект массивом?    
-Что такое деструктуризация?    
-Чем JS отличается при работе на front-end и back-end?    
-Для чего предназначены методы setTimeout и setInterval, есть ли они в JS?    
-Сравните подходы работы с асинхронным кодом: callbacks vs promises vs async / await.         
-Назовите методы массивов, какие помните, и скажите, для чего они нужны.    
-Map и Set.     
-Глубокая (deep) и поверхностная (shallow) копия объекта.     
-Какая разница между декларацией функции (function declaration) и функциональным выражением (function expression)? Что такое анонимная функция?    
-Отличия стрелочных функций от обычных:     
-IIFE (Immediately Invoked Function Expression).   
-Hoisting.    
-Замыкание (closure).   
-Рекурсия.   
-Разница между методами call и apply      
-Garbage Collector (сборщик мусора).   
-Promise.   
-Преимущества генераторов:     
-Чистая функция.   
-Event Loop (евент-петля)     
-RAF.   
-Прототип в JavaScript.     
-Generics.   
-Разница между any и unknown.    
-Type guard.   
-Type vs Interface.    
-Utility типы.   
+
+<details>
+    <summary> Какие существуют типы данных в JS? </summary>
+
+    Типов данных в JS восемь: number, string, boolean, undefined, object, bigInt, symbol и null.
+
+</details>
+
+<details>
+    <summary> Как проверить, является ли объект массивом? </summary>
+
+Для проверки, является ли объект массивом в JavaScript, можно использовать метод Array.isArray().
+Этот метод возвращает значение true, если объект является массивом, и false в противном случае.
+
+Пример использования:
+```js
+const myArray = [1, 2, 3];
+
+console.log(Array.isArray(myArray)); // true
+
+const myObject = { a: 1, b: 2 };
+
+console.log(Array.isArray(myObject)); // false
+```
+Важно помнить, что этот метод поддерживается не всеми старыми версиями браузеров, поэтому в случае необходимости может потребоваться использовать альтернативные методы проверки, такие как использование оператора instanceof или проверка наличия свойства length и метода push().
+
+</details>
+
+<details>
+<summary> Что такое деструктуризация? </summary>
+
+Деструктуризация - это способ извлечения значений из объектов или массивов и присваивания их переменным.
+
+В JavaScript, деструктуризация может быть использована для более удобного доступа к данным внутри объектов или массивов, без необходимости обращаться к каждому элементу по отдельности.
+
+</details>
+
+<details>
+<summary> Чем JS отличается при работе на front-end и back-end?</summary>
+
+На front-end JavaScript выполняется в браузере и используется для создания интерактивных пользовательских интерфейсов. Он может взаимодействовать с DOM (Document Object Model) браузера, изменять содержимое страницы, обрабатывать события и отправлять запросы на сервер.
+
+На back-end JavaScript может выполняться на сервере с использованием платформы Node.js. В этом случае JavaScript используется для создания серверных приложений и обработки запросов от клиентов. Он может выполнять такие задачи, как обработка данных, взаимодействие с базами данных, маршрутизация запросов и создание API.
+
+Однако, хотя JavaScript используется и на front-end, и на back-end, существуют некоторые различия в окружении и доступных инструментах. На front-end JavaScript работает внутри браузера, имеет доступ к DOM и браузерным API. На back-end JavaScript работает вне браузера, имеет доступ к модулям Node.js и может использовать сторонние библиотеки и фреймворки для разработки серверных приложений.
+
+</details>   
+
+<details>
+<summary> Для чего предназначены методы setTimeout и setInterval, есть ли они в JS? </summary>
+</details>   
+
+<details>
+<summary> Сравните подходы работы с асинхронным кодом: callbacks vs promises vs async / await. </summary>
+</details>   
+
+<details>
+<summary> Назовите методы массивов, какие помните, и скажите, для чего они нужны. </summary>
+</details>   
+
+<details>
+<summary> Map и Set. </summary>
+</details>   
+
+<details>
+<summary> Глубокая (deep) и поверхностная (shallow) копия объекта. </summary>
+</details>   
+
+<details>
+<summary> Какая разница между декларацией функции (function declaration) и функциональным выражением (function expression)? Что такое анонимная функция? </summary>
+</details>   
+
+<details>
+<summary> Отличия стрелочных функций от обычных: </summary>
+</details>   
+
+<details>
+<summary> IIFE (Immediately Invoked Function Expression). </summary>
+</details>   
+
+<details>
+<summary> Hoisting. </summary>
+</details>   
+
+<details>
+<summary> Замыкание (closure). </summary>
+</details>   
+
+<details>
+<summary> Рекурсия. </summary>
+</details>   
+
+<details>
+<summary> Разница между методами call и apply </summary>
+</details>   
+
+<details>
+<summary> Garbage Collector (сборщик мусора). </summary>
+</details>   
+
+<details>
+<summary> Promise. </summary>
+</details>   
+
+<details>
+<summary> Преимущества генераторов: </summary>
+</details>   
+
+<details>
+<summary> Чистая функция. </summary>
+</details>   
+
+<details>
+<summary> Event Loop (евент-петля) </summary>
+</details>   
+
+<details>
+<summary> RAF. </summary>
+</details>   
+
+<details>
+<summary> Прототип в JavaScript. </summary>
+</details>   
+
+<details>
+<summary> Generics. </summary>
+</details>   
+
+<details>
+<summary> Разница между any и unknown. </summary>
+</details>   
+
+<details>
+<summary> Type guard. </summary>
+</details>   
+
+<details>
+<summary> Type vs Interface. </summary>
+</details>   
+
+<details>
+<summary> Utility типы. </summary>
+</details>
 
 Partial<T> - создает тип, который делает все свойства объекта необязательными.
 Readonly<T> - создает тип, который делает все свойства объекта доступными только для чтения.
