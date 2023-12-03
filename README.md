@@ -95,6 +95,10 @@ leadership
 
 ### Задачи на собес
 
+#### Проверка на наличие дубликатов
+
+Написать функцию, которая принимает в себя массив промисов, последовательно их запускает и возвращает массив с их результатом. 
+
 #### Проверка на палиндром
 
 A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward as forward.
