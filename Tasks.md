@@ -151,5 +151,113 @@ interface SplitResult {
  * @param periods массив периода
  */
 ```
+```
+// EX. 1
+// DESCRIPTIONS: Type result of console.log instead of '?'
+
+const arr = [1,2,3];
+const arr2 = [...arr];
+
+//console.log(arr); // [12, 1, 2, 3]
+//console.log(arr2); // [12, 1, 2, 3, 14]
+```
+
+```
+// EX. 2
+// DESCRIPTION: Type the order of numbers which will be printed in the console
+
+// setTimeout(() => {
+//    console.log(1);
+// });
+
+// const p = new Promise((resolve) => {
+//    console.log(2);
+//   resolve();
+// });
+
+// p.then(() => {
+//    console.log(3);
+// })
+
+//  console.log(4);
+```
+
+```
+// EX. 3
+// DESCRIPTION: Make expressions work
+// RULE: do not change console.log 
+
+// console.log((1).plus(2).minus(1) === 2); 
+// expected result: true
+
+// Array.prototype.repeater
+// console.log([1,2,3,4,5].repeater(4)); 
+// expected result: [1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5]
+```
+
+```
+// EX. 4
+// DESCRIPTION: flat an array
+
+// const flat = (arr) => {
+//   // TODO: implement
+// }
+
+// console.log(flat([0, 1, [2, [3, [4, 5], 6], [7, 8]], 9]));
+// expected result: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+```
+// EX. 5
+// DESCRIPTION: makes items of an array unique
+
+// const uniq = (arr) => {
+// };
+
+// console.log(uniq([ 1, 2, 45, 3, 2, 1, 3, 2, 1, 45, 5 ]));
+//expected result: [ 1, 2, 45, 3, 5 ]
+```
+
+```
+// EX. 6
+// DESCRIPTION: a simple memo function
+// RULES: unlimited number of args but each of them is primitive
+
+// const memo = (fn) => {
+//   // TODO: implement
+// };
+
+// const sum = memo((a, b) => a + b);
+
+// console.log('1 + 2 = ' + sum(1, 2)); // expected result: 1 + 2 = 3
+// console.log('2 + 3 = ' + sum(2, 3)); // expected result: 2 + 3 = 5
+// console.log('cache', sum.cache); // should display cache values
+```
+```
+// Ex. 7
+// DESCRIPTION: find pairs of numbers in an array
+// RULE: no duplicates
+
+// const getPairs = (arr, ref) => {
+//   const newArr
+// }
+
+// console.log(getPairs([1, 0, 13, -4, 8, 12, -19, 5, 32], 13));
+// expected result: [[1, 12], [0, 13], [8, 5], [-19, 32]]
+```
+```
+// EX. 8
+// DESCRIPTION: Implement a function which allows to filter an array with any depth, by filter function
+
+// const deepFilter = (arr, filterFn) => {
+//   // TODO: implement
+// };
+
+// const filterFunc = (val) => {
+//   // TODO: implement
+// }
+
+// console.log(deepFilter([null, ['abc', -1, 5, true], -1, 3, [false], [-5, [6, '']]], filterFunc);
+// result: [['abc', 5, true], 3, [[6]]]
+```
 
 
