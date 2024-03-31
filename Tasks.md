@@ -91,9 +91,27 @@ writeFile(filepath, ‘content’)
 Подсказка
 Вам понадобятся rest и spread операторы
 ```
+```
+interface TreeData {
+  id: string
+  value: number
+  children?: TreeData[]
+}
 
+interface FlatData extends Omit<TreeData, 'children'> {
+  parent?: FlatData['id']
+}
 
+/**
+ * Преобразование древовидной структуры TreeData в плоскую FlatData
+ *
+ * @param tree Древовидная Структура
+ */
 
+ export const toFlatData = (tree: TreeData): FlatData[] => {
+
+}
+```
 
 
 
