@@ -92,6 +92,21 @@ writeFile(filepath, ‘content’)
 Вам понадобятся rest и spread операторы
 ```
 ```
+type GetID<ITEM> = (item: ITEM) => string
+
+/**
+ * Исключает item из массива, если элемент есть в массиве, иначе добавляет item в конец массива
+ * Возвращает новый массив
+ *
+ * @param item элемент массива
+ * @param array массив
+ * @param getId возвращает id элемента, нужен для поиска элемента в массиве
+ */
+export const toggleItem = <ITEM>(item: ITEM, array: ITEM[], getId: GetID<ITEM>): ITEM[] => {
+  return []
+}
+```
+```
 interface TreeData {
   id: string
   value: number
