@@ -127,8 +127,29 @@ interface FlatData extends Omit<TreeData, 'children'> {
 
 }
 ```
+```
+interface SplitResult {
+  left: number[]
+  inner: number[]
+  right: number[]
+}
 
-
-
+/**
+ * Разбивает массив чисел points на 3 части по условию:
+ * left: числа меньше всех чисел из periods
+ * right: числа  больше всех чисел из periods
+ * inner: оставшиеся числа
+ *
+ * Пример:
+ * const points = [-1, 0, 12, 1, 5]
+ * const periods = [3, 2, 5]
+ *
+ * splitByPeriod(points, periods)
+ * > { left: [-1, 0, 1], inner: [5], right: [12] }
+ *
+ * @param points массив точек
+ * @param periods массив периода
+ */
+```
 
 
