@@ -149,7 +149,7 @@ function add(a: any, b: any, c?: any): any {
     return b.map(item => a + item);
   }
 
-  throw new Error('Invalid arguments');
+  return a
 }
 ```
 ````js
