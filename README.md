@@ -131,6 +131,28 @@ const containsDuplicate = (nums) => {
     return new Set(nums).size !== nums.length
 };
 ```
+// Напиши тип для этой функции 
+```js
+function add(a: any, b: any, c?: any): any {
+  if (typeof a === 'number' && typeof b === 'number' && typeof c === 'number') {
+    // Если все три аргумента - числа, возвращаем их сумму
+    return a + b + c;
+  }
+  
+  if (typeof a === 'number' && typeof b === 'number') {
+    // Если два аргумента - числа, возвращаем их сумму
+    return a + b;
+  }
+  
+  if (typeof a === 'string' && Array.isArray(b)) {
+    // Если первый аргумент - строка, а второй - массив строк, возвращаем новый массив, добавляя первый аргумент ко всем элементам массива
+    return b.map(item => a + item);
+  }
+
+  throw new Error('Invalid arguments');
+}
+```
+
 
 ## React задачи
 
