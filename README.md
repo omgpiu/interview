@@ -152,7 +152,45 @@ function add(a: any, b: any, c?: any): any {
   throw new Error('Invalid arguments');
 }
 ```
+````js
+const C = ({
+  data,
+  setState,
+  state,
+}: {
+  data: any;
+  setState: any;
+  state: any;
+}) => {
+  useEffect(() => {
+    console.log("mount", data);
 
+    return () => {
+      console.log("unmount", data);
+    };
+  }, []);
+  console.log("data", data);
+  return (
+    <p>
+      {data}
+      <button onClick={() => setState(() => state.filter((e) => e !== data))}>
+        DELETE
+      </button>
+    </p>
+  );
+};
+
+export const Cards = () => {
+  const [state, setState] = useState([1, 2, 3, 4, 5]);
+  return (
+    <div>
+      {state.map((item) => (
+        <C data={item} key={Math.random()} setState={setState} state={state} />
+      ))}
+    </div>
+  );
+};
+````
 
 ## React задачи
 
