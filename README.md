@@ -134,23 +134,33 @@ const containsDuplicate = (nums) => {
 // Напиши тип для этой функции 
 ```js
 function add(a: any, b: any, c?: any): any {
-  if (typeof a === 'number' && typeof b === 'number' && typeof c === 'number') {
-    // Если все три аргумента - числа, возвращаем их сумму
-    return a + b + c;
-  }
-  
-  if (typeof a === 'number' && typeof b === 'number') {
-    // Если два аргумента - числа, возвращаем их сумму
-    return a + b;
-  }
-  
-  if (typeof a === 'string' && Array.isArray(b)) {
-    // Если первый аргумент - строка, а второй - массив строк, возвращаем новый массив, добавляя первый аргумент ко всем элементам массива
-    return b.map(item => a + item);
-  }
+    if (typeof a === 'number' && typeof b === 'number' && typeof c === 'number') {
+        return a + b + c;
+    }
 
-  return a
+    if (typeof a === 'object' && a !== null && typeof b === 'number' && typeof c === 'string') {
+        return {
+            first: b,
+            second: c
+        };
+    }
+
+    if (typeof a === 'string' && Array.isArray(b)) {
+        return b.map(item => a + item);
+    }
+
+    return a;
 }
+
+// Перегрузка для трех числовых аргументов
+function add(a: number, b: number, c: number): number;
+// Перегрузка для объекта, числа и строки
+function add(a: object, b: number, c: string): { first: number, second: string };
+// Перегрузка для строки и массива строк
+function add(a: string, b: string[]): string[];
+// Общая перегрузка для других случаев
+function add(a: any, b: any, c?: any): any;
+
 ```
 ````js
 const C = ({
