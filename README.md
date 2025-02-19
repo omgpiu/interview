@@ -133,6 +133,14 @@ const containsDuplicate = (nums) => {
 ```
 // Напиши тип для этой функции 
 ```js
+// Перегрузка для трех числовых аргументов
+function add(a: number, b: number, c: number): number;
+// Перегрузка для объекта, числа и строки
+function add(a: object, b: number, c: string): { first: number, second: string };
+// Перегрузка для строки и массива строк
+function add(a: string, b: string[]): string[];
+
+
 function add(a: any, b: any, c?: any): any {
     if (typeof a === 'number' && typeof b === 'number' && typeof c === 'number') {
         return a + b + c;
@@ -152,14 +160,6 @@ function add(a: any, b: any, c?: any): any {
     return a;
 }
 
-// Перегрузка для трех числовых аргументов
-function add(a: number, b: number, c: number): number;
-// Перегрузка для объекта, числа и строки
-function add(a: object, b: number, c: string): { first: number, second: string };
-// Перегрузка для строки и массива строк
-function add(a: string, b: string[]): string[];
-// Общая перегрузка для других случаев
-function add(a: any, b: any, c?: any): any;
 
 ```
 ````js
